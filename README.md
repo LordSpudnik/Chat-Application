@@ -4,7 +4,7 @@
 
 This project implements a simple chatroom application using socket programming in C. It consists of a Server and a Client program that facilitate real-time communication between multiple clients.
 
-**Features**
+## **Features**
 
 Multiple clients can join the chatroom simultaneously.
 
@@ -16,9 +16,9 @@ Threaded implementation for handling multiple clients.
 
 Graceful shutdown with Ctrl+C support.
 
-**Getting Started**
+## **Getting Started**
 
-**Compilation**
+### **Compilation**
 
 1. Clone the repository:
 '''
@@ -33,7 +33,7 @@ gcc -pthread server.c -o server
 '''
 gcc client.c -o client
 '''
-**Usage**
+### **Usage**
 
 **Start the Server**
 
@@ -57,13 +57,13 @@ Example:
 '''
 Enter your name when prompted and start chatting!
 
-**Exiting the Chatroom**
+## **Exiting the Chatroom**
 
 Clients can type exit to leave the chatroom.
 
 Use Ctrl+C to terminate the server.
 
-**Example Interaction**
+## **Example Interaction**
 
 Start the server on a port:
 '''
@@ -87,7 +87,7 @@ Client2 has joined
 Hello! -> Client1
 Hi there! -> Client2
 '''
-**Known Limitations**
+## **Known Limitations**
 
 The server runs on localhost (127.0.0.1) only. For remote connections, modify the IP in the server and client code.
 
