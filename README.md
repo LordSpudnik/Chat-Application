@@ -1,6 +1,6 @@
-#Chatroom Application
+# Chatroom Application
 
-**Overview**
+## **Overview**
 
 This project implements a simple chatroom application using socket programming in C. It consists of a Server and a Client program that facilitate real-time communication between multiple clients.
 
