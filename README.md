@@ -6,15 +6,11 @@ This project implements a simple chatroom application using socket programming i
 
 ## **Features**
 
-Multiple clients can join the chatroom simultaneously.
-
-Clients can send and receive messages in real-time.
-
-Supports client disconnection handling.
-
-Threaded implementation for handling multiple clients.
-
-Graceful shutdown with Ctrl+C support.
+- Multiple clients can join the chatroom simultaneously.
+- Clients can send and receive messages in real-time.
+- Supports client disconnection handling.
+- Threaded implementation for handling multiple clients.
+- Graceful shutdown with Ctrl+C support.
 
 ## **Getting Started**
 
@@ -59,9 +55,8 @@ Enter your name when prompted and start chatting!
 
 ## **Exiting the Chatroom**
 
-Clients can type exit to leave the chatroom.
-
-Use Ctrl+C to terminate the server.
+- Clients can type exit to leave the chatroom.
+- Use Ctrl+C to terminate the server.
 
 ## **Example Interaction**
 
@@ -89,6 +84,5 @@ Hi there! -> Client2
 ```
 ## **Known Limitations**
 
-The server runs on localhost (127.0.0.1) only. For remote connections, modify the IP in the server and client code.
-
-No encryption or secure communication is implemented.
+- The server runs on localhost (127.0.0.1) only. For remote connections, modify the IP in the server and client code.
+- No encryption or secure communication is implemented.
