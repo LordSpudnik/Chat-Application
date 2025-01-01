@@ -1,4 +1,4 @@
-**#Chatroom Application**
+#Chatroom Application
 
 **Overview**
 
